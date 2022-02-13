@@ -31,7 +31,20 @@
             </ul>
         </nav>
     </header>
-  
+    <section id="contactT">
+        <h2 class="hidden">Contact Title</h2>
+        <p>Drop us a comment bellow!</p>
+    </section>
+    <section>
+        <form id="NameEmail" action="email.php" method="POST" enctype="text/plain">
+            <input class="contact-input" name="fullName" type="text" placeholder="First & Last Name">
+            <input class="contact-input" name="contactInfo" type="text" placeholder="Email Address">
+        </form> 
+        <form id="msgBox">
+            <textarea id="contact-message"  name="msg" placeholder="Say hello"></textarea>
+            <input name="submit" type="submit" value="Submit">
+        </form> 
+    </section>
     
 
     <footer id="foot">

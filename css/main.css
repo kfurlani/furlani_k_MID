@@ -127,6 +127,36 @@ body {
     color: #ffffff;
 }
 
+#contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#NameEmail{
+    display: flex;
+    align-items: center;
+    margin-left:500px;
+    margin-bottom: 45px;
+    width: 100px;
+    height: 100px;
+}
+
+#contactT{
+    font-size: 45px;
+    font-family: 'Cardo', Arial, Helvetica, sans-serif, serif;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display:flex;
+    justify-content: center;
+}
+
+#msgBox {
+    display:flex;
+    align-items: center;
+    margin-left: 500px;
+    /*height: 200px; trying to figure out how to make my input box bigger*/  
+}
 
 
 
